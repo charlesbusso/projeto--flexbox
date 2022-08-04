@@ -3,8 +3,10 @@
     margin: opx;
     padding: 0px;
     font-family: 'open Sans', sans-serif;
+    
 }
 ul{
+    
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -13,15 +15,16 @@ ul{
 ul li a{
     text-decoration: none;
 }
-div img {
-    display: inline-block;
+div img{
+    display: block;
+    max-width: 100vh;
     
 }
 .flex-container {
     display: flex;
-    max-width: 992px;
     margin: auto;
-    width: 100vh;
+    max-width: 100vh;
+    padding: 10px 15px;
 }
 header {
     background-color: #122a57;
@@ -44,16 +47,15 @@ header .menu {
     color: #fff;
 }
 .apresentacao {
+    max-width: 100vh;
     align-items: center;
     justify-content: space-between;
 }
-.apresentacao .texto-apresentacao {
-    min-width: 200px;
-}
+
 .texto-apresentacao h1 {
-color: #122a57;
-font-size: 48px;
-margin-bottom: 10px;
+    color: #122a57;
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
 .btn{
@@ -71,18 +73,19 @@ margin-bottom: 10px;
 
 }
 #quem-somos {
+    max-width: 100vh;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
-#quem-somos h2 {
+#quem-somos h2{
     font-size: 32px;
     color: #122a57;
     display: flex;
     margin-bottom: 20px;
 
 }
-#quem-somos h2 ::before{
+#quem-somos h2::before{
     content: "";
     height: 50px;
     width: 5px;
@@ -91,25 +94,27 @@ margin-bottom: 10px;
     position: relative;
 }
 #quem-somos p{
-    margin-bottom: 10px;
-    width: 90px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    
+    
 }
 #quem-somos img {
     min-width: 420px;
 }
 .container-externo {
     background-color: #122a57;
-    width: 100%;
+    max-width: 100vh;
 }
 #servico {
     flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #servico h2 {
-    color: #122a57;
+    color: #fff;
     font-size: 32px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .list-servico { 
     display: flex;
@@ -121,7 +126,7 @@ margin-bottom: 10px;
 }
 .item-servico a {
     width: 220px;
-    background-color: #122a57;
+    background-color: #fff;
     border-radius: 30px;
     height: 50px;
     text-align: center;
@@ -136,18 +141,22 @@ margin-bottom: 10px;
 }
 .item-servico p {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 40px;
 
 }
-.item img {
-    width: 80%;
+.item-servico img {
+    width: 100%;
     margin: auto;
 }
+a:hover {
+    text-decoration: underline;
+}
 #planos {
+    max-width: 100vh;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 320px;
     padding-top: 50px;
 
 }
@@ -155,17 +164,19 @@ margin-bottom: 10px;
     font-size: 32px;
 }
 .list-planos {
+    max-width: 100vh;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 
 }
 .item-plano {
+    max-width: 100vh;
     flex: 1;
     border: 5px solid #122a57;
-    margin-right: 10px;
-    padding: 10px;
-    max-width: 240px;
+    margin-right: 70px;
+    padding:5px;
+    
 
 }
 .item-plano .btn {
@@ -183,24 +194,26 @@ margin-bottom: 10px;
 .item-plano h3::after{
     content: "";
     background-color: #122a57;
-    width: 100%;
+    width: 50vh;
     height: 3px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .item-plano ul{
+    max-width: 100%;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
 }
-.item-plano ul li {
+.item-plano li {
+    max-width: 100vh;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 10px;
 
 }
-.item-plano ul::before {
+.item-plano li::before {
     content: "";
     width: 10px;
     height: 10px;
@@ -208,20 +221,21 @@ margin-bottom: 10px;
     margin-right: 5px;
 
 }
-footer {
+footer{
+    width: 100vh;
+    margin: 100px;
     padding-top: 30px;
     background-color: #122a57;
-    height: 70px;
+    height: 50px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 
 }
-footer .footer {
+.footer{
+    width: 100%;
     justify-content: space-between;
     color: #fff;
 }
-footer a {
-    text-decoration: underline;
-    color: #fff;
-    
+footer a{
+    color: #fff;   
 }

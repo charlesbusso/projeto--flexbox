@@ -23,7 +23,8 @@ div img{
 .flex-container {
     display: flex;
     margin: auto;
-    max-width: 100vh;
+    max-width: 1000px;
+    min-width: 320px;
     padding: 10px 15px;
 }
 header {
@@ -47,7 +48,7 @@ header .menu {
     color: #fff;
 }
 .apresentacao {
-    max-width: 100vh;
+    max-width: 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -73,7 +74,7 @@ header .menu {
 
 }
 #quem-somos {
-    max-width: 100vh;
+    
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;

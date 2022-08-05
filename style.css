@@ -157,8 +157,6 @@ a:hover {
     text-decoration: underline;
 }
 #planos {
-    justify-content: space-between;
-    width: 100%;
     flex-direction: column;
     padding-top: 50px;
 
@@ -167,16 +165,17 @@ a:hover {
     font-size: 32px;
 }
 .list-planos {
-    max-width: 100%;
-    width: 72%;
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
 
 }
 .item-plano {
+    flex: 1;
     border: 5px solid #122a57;
     margin-right: 10px;
     padding:5px;
+    
 
 }
 .item-plano .btn {
@@ -195,27 +194,26 @@ a:hover {
 .item-plano h3::after{
     content: "";
     background-color: #122a57;
-    width: 50%;
+    width: 100%;
     height: 3px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .item-plano ul{
-    width: 80%;
-    padding: 10px 10px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-.item-plano li {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    justify-content: space-between;
 
 }
-.item-plano li::before {
+.item-plano ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin-bottom: 10px;
+    
+
+}
+.item-plano ul li::before {
     content: "";
     width: 10px;
     height: 10px;
@@ -225,6 +223,7 @@ a:hover {
 
 }
 footer{
+    flex-wrap: nowrap;
     margin: 10px;
     padding-top: 5px;
     padding-bottom: 20px;

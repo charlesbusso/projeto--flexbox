@@ -17,14 +17,14 @@ ul li a{
 }
 div img{
     display: block;
-    max-width: 100vh;
+    max-width: 100%;
     
 }
 .flex-container {
     display: flex;
     margin: auto;
-    max-width: 1000px;
-    min-width: 320px;
+    max-width: 600px;
+    min-width: 220px;
     padding: 10px 15px;
 }
 header {
@@ -48,10 +48,15 @@ header .menu {
     color: #fff;
 }
 .apresentacao {
-    max-width: 100%;
+   
     align-items: center;
     justify-content: space-between;
 }
+
+.apresentacao img {
+    min-width: 320px;
+}
+
 
 .texto-apresentacao h1 {
     color: #122a57;
@@ -64,7 +69,7 @@ header .menu {
     color: white;
     text-align: center;
     border-radius: 30px;
-    width: 220px;
+   
     display: block;
     text-decoration: none;
     height: 50px;
@@ -105,7 +110,7 @@ header .menu {
 }
 .container-externo {
     background-color: #122a57;
-    max-width: 100vh;
+    max-width: 100%;
 }
 #servico {
     flex-direction: column;
@@ -155,9 +160,9 @@ a:hover {
     text-decoration: underline;
 }
 #planos {
-    max-width: 100vh;
+    justify-content: space-between;
+    width: 100%;
     flex-direction: column;
-    min-height: 320px;
     padding-top: 50px;
 
 }
@@ -165,24 +170,22 @@ a:hover {
     font-size: 32px;
 }
 .list-planos {
-    max-width: 100vh;
+    max-width: 100%;
+    width: 72%;
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
 
 }
 .item-plano {
-    max-width: 100vh;
-    flex: 1;
     border: 5px solid #122a57;
-    margin-right: 70px;
+    margin-right: 10px;
     padding:5px;
-    
 
 }
 .item-plano .btn {
+    width: 50%;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: auto;
 }
 .item-plano h3 {
     font-size: 24px;
@@ -195,23 +198,24 @@ a:hover {
 .item-plano h3::after{
     content: "";
     background-color: #122a57;
-    width: 50vh;
+    width: 50%;
     height: 3px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 .item-plano ul{
-    max-width: 100%;
-    padding: 10px 20px;
+    width: 80%;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .item-plano li {
-    max-width: 100vh;
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 10px;
+    justify-content: space-between;
 
 }
 .item-plano li::before {
@@ -220,14 +224,15 @@ a:hover {
     height: 10px;
     background-color: #122a57;
     margin-right: 5px;
+   
 
 }
 footer{
-    width: 100vh;
-    margin: 100px;
-    padding-top: 30px;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
     background-color: #122a57;
-    height: 50px;
+    height: 30px;
     display: flex;
     align-items: flex-end;
 

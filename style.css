@@ -4,6 +4,7 @@
     padding: 0px;
     font-family: 'open Sans', sans-serif;
     
+    
 }
 ul{
     
@@ -16,7 +17,7 @@ ul li a{
     text-decoration: none;
 }
 div img{
-    display: inline-block;
+    display: block;
     max-width: 100%;
     
 }
@@ -26,7 +27,7 @@ div img{
     max-width: 800px;
     min-width: 300px;
     padding: 10px 15px;
-    width: 100%;
+    
 }
 header {
     background-color: #122a57;
@@ -63,6 +64,7 @@ header .menu {
 }
 
 .btn{
+    max-width: 100%;
     background-color: #122a57;
     color: white;
     text-align: center;
@@ -157,26 +159,26 @@ a:hover {
     text-decoration: underline;
 }
 #planos {
-    width: 100%;
+    
     flex-direction: column;
     padding-top: 50px;
 
 }
 #planos h2 {
     font-size: 32px;
+    
 }
 .list-planos {
+    margin-left: -20px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 
 }
 .item-plano {
-    width: 100%;
-    flex: 1;
     border: 5px solid #122a57;
-    margin-right: 10px;
-    padding:5px;
+    margin-right: 1px;
+    padding: 2px;
     justify-content: space-between;
     
 
@@ -187,7 +189,7 @@ a:hover {
     margin-bottom: auto;
 }
 .item-plano h3 {
-    font-size: 24px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -227,11 +229,11 @@ a:hover {
 }
 footer{
     flex-wrap: nowrap;
-    margin: 10px;
-    padding-top: 5px;
+    margin: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
     background-color: #122a57;
-    height: 30px;
+    height: 60px;
     display: flex;
     align-items: flex-end;
 

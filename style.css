@@ -240,7 +240,7 @@ footer{
 
 }
 .footer{
-    width: 100%;
+    width: 200px;
     justify-content: space-between;
     color: #fff;
 }

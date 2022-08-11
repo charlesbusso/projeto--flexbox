@@ -7,7 +7,6 @@
     
 }
 ul{
-    
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -30,7 +29,6 @@ div img{
     
 }
 header {
-    
     background-color: #122a57;
     height: 100px;
     display: flex;
@@ -54,7 +52,6 @@ header .menu {
     color: #fff;
 }
 .apresentacao {
-   
     align-items: center;
     justify-content: space-between;
 }
@@ -80,7 +77,6 @@ header .menu {
 
 }
 #quem-somos {
-    
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
@@ -161,7 +157,6 @@ a:hover {
     text-decoration: underline;
 }
 #planos {
-    
     flex-direction: column;
     padding-top: 50px;
 
@@ -213,7 +208,6 @@ a:hover {
 
 }
 .item-plano ul li {
-    
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 10px;
@@ -230,7 +224,6 @@ a:hover {
 
 }
 footer{
-    
     flex-wrap: nowrap;
     margin: 5px;
     padding-top: 15px;

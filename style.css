@@ -30,12 +30,14 @@ div img{
     
 }
 header {
+    
     background-color: #122a57;
     height: 100px;
     display: flex;
     align-items: center;
     color: #fff;
 }
+
 
 
 header .list-itens{
@@ -169,7 +171,7 @@ a:hover {
     
 }
 .list-planos {
-    margin-left: -20px;
+    margin-left: -10px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -211,7 +213,7 @@ a:hover {
 
 }
 .item-plano ul li {
-    width: 100%;
+    
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 10px;
@@ -228,9 +230,9 @@ a:hover {
 
 }
 footer{
-    width: 100vh;
+    
     flex-wrap: nowrap;
-    margin: 20px;
+    margin: 5px;
     padding-top: 15px;
     padding-bottom: 20px;
     background-color: #122a57;
@@ -240,7 +242,6 @@ footer{
 
 }
 .footer{
-    width: 100%;
     justify-content: space-between;
     color: #fff;
 }

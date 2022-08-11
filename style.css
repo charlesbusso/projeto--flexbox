@@ -1,4 +1,4 @@
-@charset "UTF-8";
+⁸@charset "UTF-8";
 *{
     margin: opx;
     padding: 0px;
@@ -41,7 +41,7 @@ header {
 header .list-itens{
     display: flex;
     max-width: 260px;
-    width: 100vh;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -63,7 +63,6 @@ header .menu {
 }
 
 .btn{
-    max-width: 100%;
     background-color: #122a57;
     color: white;
     text-align: center;
@@ -103,7 +102,7 @@ header .menu {
     
 }
 #quem-somos img {
-    min-width: 420px;
+    min-width: 300px;
 }
 .container-externo {
     background-color: #122a57;

@@ -101,7 +101,7 @@ header .menu {
     
 }
 #quem-somos img {
-    min-width: 320px;
+    max-width: 420px;
     min-width: 300px;
 
 }

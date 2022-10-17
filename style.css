@@ -57,6 +57,7 @@ header .menu {
     display: flex;
     margin: 20px;
     padding: 20px;
+    width: 100%;
     
 }
 
@@ -66,14 +67,20 @@ header .menu {
 }
 @media(max-width: 700px){
     header .menu{
-        flex-direction: column;}
+        flex-direction: column;width: 100%; text-align: center; align-items: center;}
     header.list-itens{padding: 5px 5px;}    
         
 
 }
 .apresentacao {
+    display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
+}
+@media(max-width: 700px){
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto-apresentacao h1 {

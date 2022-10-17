@@ -29,8 +29,7 @@ div img{
 .flex-container {
     display: flex;
     margin: auto;
-    max-width: 1000px;
-    min-width: 300px;
+    width: 100%;
     padding: 10px 15px;
     justify-content: space-between;
     
@@ -79,8 +78,9 @@ header .menu {
     justify-content: space-between;
 }
 @media(max-width: 700px){
+    .apresentacao {
     flex-direction: column;
-    align-items: center;
+    align-items: center;}
 }
 
 .texto-apresentacao h1 {
@@ -132,6 +132,10 @@ header .menu {
     max-width: 370px;
     min-width: 300px;
 
+}
+@media(max-width: 700px){
+    #quem-somos {flex-direction: column; align-items: center;}
+    #quem-somos p{width: 100%; text-align: center;}
 }
 .container-externo {
     background-color: #122a57;

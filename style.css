@@ -1,4 +1,4 @@
-⁸@charset "UTF-8";
+@charset "UTF-8";
 *{
     margin: 0px;
     padding: 0px;
@@ -152,6 +152,7 @@ header .menu {
     margin-bottom: 20px;
 }
 .list-servico { 
+    width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;

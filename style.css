@@ -226,7 +226,7 @@ a:hover {
 @media(max-width: 700px){
     .item-plano li { max-width: 50%; font-size: 1.2rem; padding: 0px;}
     #planos{align-items: center; justify-content: center;margin-right: 10px;flex-direction: column;}
-    .item-plano. btn {font-size: 1.rem;}
+    .item-plano. btn {font-size: 1.rem;flex-direction: column;}
 }
 .item-plano .btn {
     width: 80%;

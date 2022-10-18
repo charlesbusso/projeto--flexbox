@@ -51,7 +51,7 @@ header {
     
 }
 
-.flex-container menu {
+.menu {
     justify-content: space-between;
     display: flex;
     margin: 20px;
@@ -65,9 +65,9 @@ header {
     color: #fff;
 }
 @media(max-width: 700px){
-    .flex-container menu{
+    .menu{
         flex-direction: column;width: 100%; text-align: center; align-items: center;}
-    header.list-itens{padding: 5px 5px;}    
+    .list-itens{padding: 5px 5px;}    
         
 
 }
@@ -190,7 +190,8 @@ header {
 @media(max-width: 700px){
     .item-servico{
         flex-direction: column;
-        width: 100%;
+        width: 100%;}
+      .item-servico img { width: 80%;
     }
 }
 a:hover {

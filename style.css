@@ -223,7 +223,7 @@ a:hover {
 
 }
 @media(max-width: 700px){
-    .item-plano ul { max-width: 60%; font-size: 1rem;margin: 0px;padding: 0px;}
+    .item-plano ul { max-width: 30%; font-size: 1rem;margin: 0px;padding: 0px;}
     
     
 }

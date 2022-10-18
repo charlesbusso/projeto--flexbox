@@ -267,7 +267,7 @@ a:hover {
 .item-plano ul li::before {
     content: "";
     width: 20px;
-    height: 10px;
+    height: 20px;
     background-color: #122a57;
     margin-right: 2px;
    

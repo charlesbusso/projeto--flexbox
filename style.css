@@ -28,7 +28,6 @@ div img{
 }
 .flex-container {
     display: flex;
-    margin: auto;
     width: 100%;
     padding: 10px 15px;
     justify-content: space-between;
@@ -54,7 +53,7 @@ header {
 .menu {
     justify-content: space-between;
     display: flex;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
     width: 100%;
     
@@ -142,7 +141,6 @@ header {
 }
 .container-externo {
     background-color: #122a57;
-    width: 100%;
 }
 #servico {
     flex-direction: column;
@@ -164,7 +162,7 @@ header {
     text-align: center;
 }
 .item-servico a {
-    width: 220px;
+    width: 180px;
     background-color: #fff;
     border-radius: 30px;
     height: 50px;
@@ -187,13 +185,12 @@ header {
 }
 .item-servico img {
     width: 100%;
-    margin: auto;
 }
 @media(max-width: 700px){
     .item-servico{
         flex-direction: column;
-        width: 100%; margin-left: 30px;}
-      .item-servico img { width: 40%;
+        width: 100%; margin-left: 60px;}
+      .item-servico img { width: 50%;
     }
 }
 a:hover {
@@ -234,7 +231,6 @@ a:hover {
 .item-plano .btn {
     width: 80%;
     margin: auto;
-    margin-bottom: auto;
 }
 .item-plano h3 {
     font-size: 20px;

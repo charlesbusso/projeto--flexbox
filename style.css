@@ -191,7 +191,7 @@ header {
     .item-servico{
         flex-direction: column;
         width: 100%;}
-      .item-servico img { width: 80%;
+      .item-servico img { width: 30%;
     }
 }
 a:hover {
@@ -201,7 +201,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
-    width: 100%;
+    width: 50%;
 
 }
 #planos h2 {
@@ -224,7 +224,7 @@ a:hover {
 
 }
 @media(max-width: 700px){
-    .item-plano ul { max-width: 30%; font-size: 0.5rem;margin: 0px;padding: 0px;}
+    .item-plano li { max-width: 30%; font-size: 0.5rem;margin: 0px;padding: 0px;}
     
     
 }
@@ -272,7 +272,7 @@ a:hover {
 
 }
 footer{
-    width: 100vw;
+    width: 100%;
     flex-wrap: nowrap;
     margin: 5px;
     padding-top: 15px;

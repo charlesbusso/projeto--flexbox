@@ -28,7 +28,7 @@ div img{
 }
 .flex-container {
     display: flex;
-    width: 100%;
+    width: 100vh;
     padding: 10px 15px;
     justify-content: space-between;
     
@@ -55,7 +55,7 @@ header {
     display: flex;
     margin: 10px;
     padding: 20px;
-    width: 100%;
+    width: 100vh;
     
 }
 
@@ -66,7 +66,7 @@ header {
 @media(max-width: 700px){
     .menu{
         flex-direction: column;
-        width: 100%; text-align: center; align-items: center;}
+        width: 100vh; text-align: center; align-items: center;}
     .list-itens{padding: 5px 5px;}    
         
 
@@ -81,7 +81,7 @@ header {
     .apresentacao {
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 100vh;
     text-align: center;}
 }
 

@@ -155,7 +155,7 @@ header {
     margin-bottom: 20px;
 }
 .list-servico { 
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -164,7 +164,7 @@ header {
     text-align: center;
 }
 .item-servico a {
-    width: 180px;
+    width: 220px;
     background-color: #fff;
     border-radius: 30px;
     height: 50px;

@@ -228,7 +228,7 @@ a:hover {
     .item-plano li {width: 100%; font-size: 1.1rem; padding: 10px;}
     #planos{ width: 90%; align-items: center; justify-content: center;margin-right: 20px;flex-direction: column;}
     .item-plano. btn {font-size: 1.2rem;}
-    .list-planos{display: flex;width: 100%;}
+    .list-planos{display: flex;width: 100%;flex-direction: column;)}
 }
 .item-plano .btn {
     width: 80%;

@@ -65,9 +65,9 @@ margin-top: 30px;
 @media(max-width: 700px){
     .menu{
         flex-direction: column;
-        width: 310px; text-align: center;background-color: #122a57;height: 150px; margin-left: -20px;}
+        width: 500px; text-align: center;background-color: #122a57;height: 150px; margin-left: -20px;}
     .list-itens{padding: 15px 5px;} 
-    header{background-color: #122a57;height: 150px; width: 310px;}   
+    header{background-color: #122a57;height: 150px; width: 500px;}   
     
         
 
@@ -82,7 +82,7 @@ margin-top: 30px;
     .apresentacao {
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 500px;
     text-align: center;
     margin-top: 100px;
 }
@@ -143,7 +143,7 @@ margin-top: 30px;
 
 }
 @media(max-width: 700px){
-    #quem-somos {flex-direction: column; align-items: center;width: 100%;}
+    #quem-somos {flex-direction: column; align-items: center;width: 500px;}
     #quem-somos p{width: 80%; text-align: center;}
     #quem-somos img {
         margin-left: 250px;
@@ -203,7 +203,7 @@ margin-top: 30px;
     .item-servico{
         width: 90%; margin-left: 5px;}
       .item-servico img { width: 60%; }
-      .container-externo{ width: 100%; margin-left: 10px; }
+      .container-externo{ width: 500px; margin-left: 10px; }
       .list-servico{ width: 90%; }
       #servico h2{
         margin-left: 50px;
@@ -247,8 +247,8 @@ a:hover {
 }
 
 @media(max-width: 700px){
-    .item-plano li {width: 280px; font-size: 1.2rem; padding-top: 20px;}
-    #planos{ width: 100%; align-items: center; justify-content: center;flex-direction: column;}
+    .item-plano li {width: 300px; font-size: 1.2rem; padding-top: 20px;}
+    #planos{ width: 500px; align-items: center; justify-content: center;flex-direction: column;}
     .item-plano.btn {font-size: 1.2rem;}
     .list-planos{display: flex; width: 100%;flex-direction: column;}
     .item-plano {
@@ -321,5 +321,5 @@ footer a{
     color: #fff;   
 }
 @media(max-width: 700px){
-    footer{width: 350px;}
+    footer{width: 500px;}
 }

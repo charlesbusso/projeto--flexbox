@@ -321,5 +321,5 @@ footer a{
     color: #fff;   
 }
 @media(max-width: 700px){
-    footer{width: 300px;}
+    footer{width: 350px;}
 }

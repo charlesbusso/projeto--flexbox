@@ -26,19 +26,12 @@ div img{
     max-width: 100%;
     
 }
-.flex-container {
-    display: flex;
-    max-width: 1400px;
-    min-width: 250px;
-    padding: 10px 5px;
-    justify-content: space-between;
-    
-}
+
 header {
     background-color: #122a57;
     height: 200px;
     color: #fff;
-    max-width: 100%;
+    width: 100%;
    
     
     
@@ -68,8 +61,10 @@ header {
 @media(max-width: 700px){
     .menu{
         flex-direction: column;
-        width: 100%; text-align: center; align-items: center; margin-left: 10px;}
-    .list-itens{padding: 15px 5px;}    
+        width: 100vh; text-align: center;background-color: #122a57;height: 150px; margin-left: -20px;}
+    .list-itens{padding: 15px 5px;} 
+    header{background-color: #122a57;height: 150px;}   
+    
         
 
 }
@@ -84,7 +79,9 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    text-align: center;}
+    text-align: center;
+    margin-top: 100px;
+}
 }
 
 .texto-apresentacao h1 {
@@ -143,7 +140,10 @@ header {
 }
 @media(max-width: 700px){
     #quem-somos {flex-direction: column; align-items: center;width: 100%;}
-    #quem-somos p{width: 100%; text-align: center;}
+    #quem-somos p{width: 80%; text-align: center;}
+    #quem-somos img {
+        margin-left: 250px;
+    }
 }
 .container-externo {
     background-color: #122a57;
@@ -197,10 +197,14 @@ header {
 }
 @media(max-width: 700px){
     .item-servico{
-        width: 100%; margin-left: 5px;}
-      .item-servico img { width: 70%; }
-      .container-externo{ width: 100%; margin-left: 20px; }
-      .list-servico{ width: 100%; }
+        width: 90%; margin-left: 5px;}
+      .item-servico img { width: 60%; }
+      .container-externo{ width: 100%; margin-left: 10px; }
+      .list-servico{ width: 90%; }
+      #servico h2{
+        margin-left: 50px;
+      }
+
 }
 a:hover {
     text-decoration: underline;

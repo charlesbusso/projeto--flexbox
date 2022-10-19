@@ -66,7 +66,7 @@ header {
 @media(max-width: 700px){
     .menu{
         flex-direction: column;
-        width: 100vh; text-align: center; align-items: center;}
+        width: 100%; text-align: center; align-items: center;}
     .list-itens{padding: 5px 5px;}    
         
 
@@ -81,7 +81,7 @@ header {
     .apresentacao {
     flex-direction: column;
     align-items: center;
-    width: 100vh;
+    width: 100%;
     text-align: center;}
 }
 
@@ -142,6 +142,7 @@ header {
 }
 .container-externo {
     background-color: #122a57;
+    width: 100%;
 }
 #servico {
     flex-direction: column;
@@ -154,7 +155,7 @@ header {
     margin-bottom: 20px;
 }
 .list-servico { 
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -163,7 +164,7 @@ header {
     text-align: center;
 }
 .item-servico a {
-    width: 220px;
+    width: 180px;
     background-color: #fff;
     border-radius: 30px;
     height: 50px;
@@ -190,9 +191,9 @@ header {
 @media(max-width: 700px){
     .item-servico{
         flex-direction: column;
-        width: 100%; margin-left: 60px;}
-      .item-servico img { width: 50%;
-    }
+        width: 100%; margin-left: 5px;}
+      .item-servico img { width: 70%; }
+      .container-externo{ align-items: center; width: 100%; }
 }
 a:hover {
     text-decoration: underline;
@@ -209,7 +210,7 @@ a:hover {
     
 }
 .list-planos {
-    margin-left: 10px;
+    margin-left: 2px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -217,7 +218,7 @@ a:hover {
 }
 .item-plano {
     border: 5px solid #122a57;
-    margin-right: 5px;
+    margin-right: 2px;
     padding: 10px;
     justify-content: space-between;
     
@@ -225,7 +226,7 @@ a:hover {
 }
 @media(max-width: 700px){
     .item-plano li { max-width: 100%; font-size: 1.3rem; padding: 5px;flex-direction: column;}
-    #planos{align-items: center; justify-content: center;margin-right: 5px;flex-direction: column;}
+    #planos{ width: 90%; align-items: center; justify-content: center;margin-right: 5px;flex-direction: column;}
     .item-plano. btn {font-size: 1.2rem;}
     .list-planos{display: flex; flex-direction: column;width: 100%;}
 }
@@ -250,7 +251,7 @@ a:hover {
     margin-bottom: 10px;
 }
 .item-plano ul{
-    padding: 10px 8px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,7 +274,6 @@ a:hover {
 
 }
 footer{
-    width: 100vh;
     flex-wrap: nowrap;
     margin: 5px;
     padding-top: 15px;

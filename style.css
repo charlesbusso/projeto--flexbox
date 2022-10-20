@@ -97,6 +97,15 @@ margin-right: 100px;
     margin-bottom: 10px;
 
 }
+@media(max-width: 700px){
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+    }
+
+}
 #quem-somos {
     display: flex;
     width: 100%;
@@ -132,11 +141,20 @@ margin-right: 100px;
     margin-right: 230px;
 
 }
+@media(max-width: 700px){
+    #quem-somos{display: flex; flex-direction: column; align-items: center;justify-content: center;}
+    #quem-somos img{background-position: center; margin: auto;}
+    #quem-somos p{text-align: center;margin: auto;}
+    #quem-somos h2{position: relative }
+}
 
 .container-externo {
     background-color: #122a57;
     width: 90%;
     margin-left: 60px;
+}
+@media(max-width: 700px){
+    .container-externo{width: 90%; position: relative; align-items: center;margin-left: 30px;}
 }
 #servico {
     flex-direction: column;

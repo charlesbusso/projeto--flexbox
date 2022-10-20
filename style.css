@@ -292,20 +292,19 @@ a:hover {
     }
 }
 footer{
-    
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding: 25px;
+    margin-left: -40px;
     background-color: #122a57;
     height: 60px;
     display: flex;
     color: #fff;
     text-align: center;
     justify-content: center;
-    
+    width: 100%;
     
     
 }
-footer p{ font-size: 1.2rem;}
+footer p{ font-size: 1.2rem; padding: 30px;}
 footer a{
     color: #fff;   
 }

@@ -144,7 +144,7 @@ margin-top: 30px;
     margin-left: 60px;
 }
 @media(max-width: 700px){
-    .container-externo{width: 100%; position: relative; align-items: center;margin-left: 10px;}
+    .container-externo{width: 100%; position: relative; align-items: center;margin-left: 5px;}
 }
 #servico {
     flex-direction: column;
@@ -196,7 +196,7 @@ a:hover {
     text-decoration: underline;
 }
 @media(max-width: 700px){
-    .list-servico img{width: 60%; margin-right:20px;}
+    .list-servico img{width: 40%; margin-right:20px;}
     #servico{width: 100%; margin-right: 5px;}
     .item-servico{margin-right: 5px;}
     .list-servico p{font-size: 0.7rem;width: 100%;}

@@ -144,7 +144,7 @@ margin-top: 30px;
     margin-left: 60px;
 }
 @media(max-width: 700px){
-    .container-externo{ position: relative; align-items: center;margin-left: 25px;}
+    .container-externo{ position: relative; align-items: center;margin-left: 20px;}
 }
 #servico {
     flex-direction: column;

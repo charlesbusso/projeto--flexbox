@@ -154,7 +154,7 @@ margin-right: 100px;
     margin-left: 60px;
 }
 @media(max-width: 700px){
-    .container-externo{width: 90%; position: relative; align-items: center;margin-left: 30px;}
+    .container-externo{width: 100%; position: relative; align-items: center;margin-left: 30px;}
 }
 #servico {
     flex-direction: column;
@@ -204,6 +204,9 @@ margin-right: 100px;
 
 a:hover {
     text-decoration: underline;
+}
+@media(max-width: 700px){
+    .list-servico img{width: 50%;}
 }
 #planos {
     display: flex;
@@ -286,6 +289,10 @@ a:hover {
     
    
 
+}
+@media(max-width: 700px){
+    .list-planos{display: flex; flex-direction: column; margin-top: 15px;}
+    .item-plano{width: 90%;}
 }
 footer{
     width: 100%;

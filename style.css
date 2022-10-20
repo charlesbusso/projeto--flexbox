@@ -146,7 +146,7 @@ margin-right: 100px;
     #quem-somos{display: flex; flex-direction: column; align-items: center;justify-content: center;}
     #quem-somos img{background-position: center; margin: auto;margin-left: 20px;}
     #quem-somos p{text-align: center; margin-left: 100px;}
-    #quem-somos h2{margin-left: 100px; }
+    #quem-somos h2{margin-left: 100px; margin-top: 30px;}
 }
 
 .container-externo {
@@ -299,7 +299,7 @@ a:hover {
     }
 }
 footer{
-    width: 100%;
+    
     padding-top: 25px;
     padding-bottom: 20px;
     background-color: #122a57;
@@ -307,10 +307,12 @@ footer{
     display: flex;
     color: #fff;
     text-align: center;
+    justify-content: center;
+    
     
     
 }
-footer p{ font-size: 1.4rem;}
+footer p{ font-size: 1.2rem;}
 footer a{
     color: #fff;   
 }

@@ -286,7 +286,7 @@ a:hover {
 }
 @media(max-width: 700px){
     .list-planos{display: flex; flex-direction: column;}
-    .item-plano{width: 90%; margin: 20px;font-size: 1.2rem;}
+    .item-plano{width: 90%; margin: 30px;font-size: 1.2rem;}
     .item-plano li{
         font-size: 1rem;
     }

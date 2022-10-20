@@ -66,8 +66,7 @@ margin-top: 30px;
     .menu{
         flex-direction: column;
         width: 100%; text-align: center;background-color: #122a57;height: 150px; margin-left: -20px;}
-    .list-itens{padding: 15px 5px;} 
-    header{background-color: #122a57;height: 150px; width: 100%;}   
+    .list-itens{padding: 15px 5px;}  
     
         
 
